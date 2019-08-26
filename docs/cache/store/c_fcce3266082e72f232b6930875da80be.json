@@ -1,0 +1,63 @@
+{
+    "name": "App\\Http\\Middleware\\Authenticate",
+    "line": 7,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Middleware",
+    "file": "\/home\/lidia\/Documents\/laravel\/stisla-laravel\/app\/Http\/Middleware\/Authenticate.php",
+    "relative_file": null,
+    "hash": "d89ffc30231ce84db49e2990a960bac172ca5c86",
+    "parent": "Illuminate\\Auth\\Middleware\\Authenticate",
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Middleware": "Illuminate\\Auth\\Middleware\\Authenticate"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "redirectTo": {
+            "name": "redirectTo",
+            "line": 19,
+            "short_desc": "Get the path the user should be redirected to when they are not authenticated.",
+            "long_desc": "relizamos una rediriccion al login.\nSi la ruta de redireccionamiento necesita una\nl\u00f3gica de generaci\u00f3n personalizada, puede definir\nun m\u00e9todo redirectTo en lugar de una propiedad redirectTo:",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "que retorne ala vista del login",
+            "tags": [],
+            "modifiers": 2,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "request": {
+                    "name": "request",
+                    "line": 19,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\Illuminate\\Http\\Request",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": null,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

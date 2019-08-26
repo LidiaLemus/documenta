@@ -1,0 +1,64 @@
+{
+    "name": "App\\Http\\Controllers\\HomeController",
+    "line": 7,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers",
+    "file": "\/home\/lidia\/Documents\/laravel\/stisla-laravel\/app\/Http\/Controllers\/HomeController.php",
+    "relative_file": null,
+    "hash": "845e108f42db45e4292428889b7d97b39af39de7",
+    "parent": "App\\Http\\Controllers\\Controller",
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Request": "Illuminate\\Http\\Request"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 15,
+            "short_desc": "Create a new controller instance.",
+            "long_desc": "creamos una funcion contruct y le decimos que autentique el objeto auth.\nal realizar esta funcion no podra acceder si no tiene los permisos necesarios.",
+            "hint": [
+                [
+                    "void",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "index": {
+            "name": "index",
+            "line": 26,
+            "short_desc": "Show the application dashboard.",
+            "long_desc": "creamos una funcion que se llama index y que retorne al home.",
+            "hint": [
+                [
+                    "\\Illuminate\\Contracts\\Support\\Renderable",
+                    false
+                ]
+            ],
+            "hint_desc": "ala vista del home.",
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

@@ -1,0 +1,48 @@
+{
+    "name": "App\\Http\\Controllers\\Auth\\ForgotPasswordController",
+    "line": 8,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers\\Auth",
+    "file": "\/home\/lidia\/Documents\/laravel\/stisla-laravel\/app\/Http\/Controllers\/Auth\/ForgotPasswordController.php",
+    "relative_file": null,
+    "hash": "dfc8ac214757caba68c5ef203e7008b36f54a4c9",
+    "parent": "App\\Http\\Controllers\\Controller",
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Controller": "App\\Http\\Controllers\\Controller",
+        "SendsPasswordResetEmails": "Illuminate\\Foundation\\Auth\\SendsPasswordResetEmails"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": {
+        "Illuminate\\Foundation\\Auth\\SendsPasswordResetEmails": "Illuminate\\Foundation\\Auth\\SendsPasswordResetEmails"
+    },
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 32,
+            "short_desc": "Create a new controller instance.",
+            "long_desc": "Le enviaremos el enlace de restablecimiento de contrase\u00f1a a este usuario. Una vez que hayamos intentado\npara enviar el enlace, examinaremos la respuesta y luego veremos el mensaje\nnecesita mostrar al usuario. Finalmente, enviaremos una respuesta adecuada.\npermisos para que pueda elogiarse.",
+            "hint": [
+                [
+                    "void",
+                    false
+                ]
+            ],
+            "hint_desc": "al login",
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}
